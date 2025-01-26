@@ -5,6 +5,5 @@ $("#run").on("click",function () {
 
     $("#output").html(htmlStr);
     $("#style").html(cssStr);
-    #("#script").html(jssStr);
-    // eval(jssStr);
+    eval(jssStr);
 })
